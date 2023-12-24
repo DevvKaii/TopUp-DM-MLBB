@@ -45,22 +45,14 @@ const IdServer = ({ dataUser, setDataUser }) => {
           />
         </div>
         <div className="col-2 ">
-          <img
-            src={i}
-            alt="informasi klo gatau"
-            className="my-1"
-            style={{ width: "27px", cursor: "pointer" }}
-          />
+          
         </div>
       </div>
 
       <div className="row">
         <div className="col ">
           <p className="fw-light pt-3" id="info">
-            Untuk mengetahui User ID Anda, silakan klik menu profile dibagian
-            kiri atas pada menu utama game. User ID akan terlihat dibagian bawah
-            Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk
-            menyelesaikan transaksi. Contoh : 12345678(1234).
+            ដើម្បីឃើញ UserID សូមចូលទៅក្នងហ្គេម ហើយចុចរូបភាព Avatar នៅខាងឆ្វេងអេក្រង់កញ្ចក់ ហើយចុចទៅកាន់"Check ID" ពេលនោះ User ID និងបង្ហាញឲ្យឃើញ បន្ទាប់មកសូមយក User ID នោះមកបំពេញ។ ឧទាហរណ៍: User ID: 123456789, Server ID: 1234។
           </p>
         </div>
       </div>
