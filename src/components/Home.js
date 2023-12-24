@@ -83,19 +83,19 @@ const Home = ({
 
     if (dataUser.idUser === "Null") {
       setIsAlert(true);
-      setIsiAlert("ID tidak ditemukan !");
+      setIsiAlert("ID not found!");
     } else if (dataUser.serverUser === "Null") {
       setIsAlert(true);
-      setIsiAlert("Server tidak ditemukan !");
+      setIsiAlert("Server not found!");
     } else if (dataUser.jumlahDiamond === "Null") {
       setIsAlert(true);
-      setIsiAlert("Silahkan pilih jumlah Diamond");
+      setIsiAlert("Please select the number of Diamonds");
     } else if (dataUser.pembayaran === "Null") {
       setIsAlert(true);
-      setIsiAlert("Silahkan pilih metode pembayaran !");
+      setIsiAlert("Please choose a payment method!");
     } else if (dataUser.noTelp === "Null") {
       setIsAlert(true);
-      setIsiAlert("Silahkan isi nomor telepon !");
+      setIsiAlert("Please fill in the telephone number!");
     } else {
       setIsAlert(false);
       setIsShow(true);
@@ -197,7 +197,7 @@ const Home = ({
                 className="tombol-bayar d-flex align-items-center justify-content-center"
                 onClick={handleBayar}
               >
-                Bayar
+                PAY
               </button>
             </div>
           </div>
